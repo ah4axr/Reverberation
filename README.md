@@ -1,0 +1,2 @@
+# Reverberation
+This is an audio plugin built in C++. It is a reverberation effect similar to Schroeder's and Moorer's reverbs. It processes the incoming audio with multiple comb filters in parallel before sending the sum of the outcomes through multiple allpass filters in series. Each comb filter uses an low-pass filter in the feedback loop to control the amount of early reflections and late reflections heard in the reverb
